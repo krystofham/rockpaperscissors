@@ -1,0 +1,53 @@
+img {
+    display: none;
+    height: 150px;
+    width: auto;
+}
+h1 {
+    padding: 15px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.verdikt p{
+    font-size: 30px;
+}
+button {
+    padding: 15px;
+    border: 0cap;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: black;
+    color: aquamarine;
+    font-size: 20px;
+}
+.choices {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: row;
+
+}
+.choices {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.verdikt {
+    padding: 15px;
+    border: 0cap;
+    border-radius: 15px;
+    padding: 25px;
+    background-color: black;
+    color: aquamarine;
+    font-size: 20px;
+}
