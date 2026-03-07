@@ -25,7 +25,7 @@ function evaluateWinner(pc, plr) {
 }
 
 const hideAllImages = () => {
-    document.querySelectorAll("img").forEach(img => img.style.display = "none");
+    document.querySelectorAll("i").forEach(img => img.style.display = "none");
 };
 
 function play() {    
