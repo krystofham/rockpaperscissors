@@ -51,3 +51,44 @@ button {
     color: aquamarine;
     font-size: 20px;
 }
+.scoreboard {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #222;
+    color: white;
+    border-collapse: collapse;
+    font-family: 'Arial Black', sans-serif;
+    border: 3px solid #444;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+.scoreboard thead th {
+    background-color: #111;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding: 5px;
+    color: #aaa;
+    border-bottom: 1px solid #444;
+}
+
+.team-name {
+    padding: 15px;
+    font-size: 18px;
+    width: 40%;
+}
+
+.score-cell {
+    background-color: #000;
+    font-size: 32px;
+    color: aquamarine; /* Neonově zelená jako digitální tabule */
+    padding: 10px;
+    min-width: 80px;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+}
+
+/* Malý efekt pro oživení */
+#scorebot, #scoreply {
+    text-shadow: 0 0 10px aquamarine;
+}

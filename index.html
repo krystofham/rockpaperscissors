@@ -8,9 +8,22 @@
 </head>
 <body>
     <h1>Rock paper scissors</h1>
-    <span>PC |<span class="score" id="scorebot">0</span></span><br>
-    <span>PLAYER |<span class="score" id="scoreply">0</span></span>
-    <main>
+<table class="scoreboard">
+    <thead>
+        <tr>
+            <th colspan="3">AKTUÁLNÍ SKÓRE</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="team-name">ROBOT</td>
+            <td class="score-cell">
+                <span id="scorebot">0</span> : <span id="scoreply">0</span>
+            </td>
+            <td class="team-name">HRÁČ</td>
+        </tr>
+    </tbody>
+</table>    <main>
     <button class="start">Play game</button>
     <div class="choices">
         <h2>PC choise</h2>
