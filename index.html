@@ -23,27 +23,39 @@
             </td>
             <td class="team-name">HRÁČ</td>
         </tr>
+        <tr>
+            <td>
+                <div class="choicePC choice">
+                    <i class="fa-regular fa-hand-scissors fa-5x" id="PC0" style="display: none;"></i>
+                    <i class="fa-regular fa-hand-paper fa-5x" id="PC1"style="display: none;"></i>
+                    <i class="fa-regular fa-hand-rock fa-5x" id="PC2"style="display: none;"></i>
+                </div>
+            </td>
+            <td></td>
+            <td>
+                <div class="choicePLAYER choice">
+                    <i class="fa-regular fa-hand-scissors fa-5x" id="RES-PL0" style="display: none;"></i>
+                    <i class="fa-regular fa-hand-paper fa-5x" id="RES-PL1"style="display: none;"></i>
+                    <i class="fa-regular fa-hand-rock fa-5x" id="RES-PL2"style="display: none;"></i>
+                </div>
+            </td>
+        </tr>
     </tbody>
-</table>    <main>
-    <button class="start">Play game</button>
-    <div class="choices">
-        <h2>PC choise</h2>
-        <div class="choicePC choice">
-            <i class="fa-regular fa-hand-scissors fa-5x" id="PC0"></i>
-            <i class="fa-regular fa-hand-paper fa-5x" id="PC1"></i>
-            <i class="fa-regular fa-hand-rock fa-5x" id="PC2"></i>
-        </div>
-
-        <h2>You</h2>
-
-        <div class="choicePLAYER choice">
-            <i class="fa-regular fa-hand-scissors fa-5x" id="PL0"></i>
-            <i class="fa-regular fa-hand-paper fa-5x" id="PL1"></i>
-            <i class="fa-regular fa-hand-rock fa-5x" id="PL2"></i>
-        </div>
+</table>    
+<main>
+    <h2>Vyber si</h2>
+    <div class="pick">
+        <button class="P0">
+            <i class="pick fa-regular fa-hand-scissors fa-5x" id="PL0" class="choice"></i>
+        </button>
+        <button class="P1">
+            <i class="pick fa-regular fa-hand-paper fa-5x"id="PL1" class="choice"></i>
+        </button>
+        <button class="P2">
+            <i class="pick fa-regular fa-hand-rock fa-5x" id="PL2"class="choice"></i>
+        </button>
     </div>
-    <div class="verdikt">
-    </div>
+    <div class="verdikt"></div>
     </main>
     <script src="script.js"></script>
 </body>
