@@ -1,4 +1,4 @@
-#✊✌️✋ Rock Paper Scissors (Kámen, nůžky, papír)
+# ✊✌️✋ Rock Paper Scissors (Kámen, nůžky, papír)
 
 Jednoduchá a interaktivní webová hra postavená na čistém JavaScriptu, HTML5 a CSS3. Hráč soupeří proti náhodně generovaným tahům robota.
 ## 🚀 Funkce
