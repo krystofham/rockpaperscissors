@@ -60,3 +60,4 @@ Projekt používá moderní tmavé téma s neonovými prvky:
     Ujisti se, že máš v adresáři soubory index.html, style.css a script.js.
 
     Otevři index.html v libovolném moderním prohlížeči.
+Projekt byl vytvořen v rámci The Odin Project
